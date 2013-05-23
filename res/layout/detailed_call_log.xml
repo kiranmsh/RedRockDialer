@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/call_list_view_header"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <ListView
+        android:id="@+id/detail_call_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:dividerHeight="1dp"
+        android:divider="@color/et_border"
+         >
+    </ListView>
+
+</LinearLayout>

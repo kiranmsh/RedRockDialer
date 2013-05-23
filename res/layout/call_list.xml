@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/call_list_view_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/call_list_view_color"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="@color/sky_blue" />
+
+    <TextView
+        android:id="@+id/call_list_view_header1"
+        style="@style/list_view_item_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone" />
+
+    <QuickContactBadge
+        android:id="@+id/call_list_view_qcBadge"
+        style="@style/list_view_item_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </QuickContactBadge>
+
+    <TextView
+        android:id="@+id/call_list_view_date"
+        style="@style/list_view_item_style"
+        android:layout_weight="0.23"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/call_list_view_name"
+        style="@style/list_view_item_style"
+        android:layout_weight="0.40"
+        android:gravity="left"
+        android:padding="3dp" />
+
+    <LinearLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.30"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/call_list_view_duration"
+            style="@style/list_view_item_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="5dp" />
+
+        <TextView
+            android:id="@+id/call_list_view_duration1"
+            style="@style/list_view_item_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/call_list_view_type"
+        style="@style/list_view_item_style"
+        android:layout_weight="0.20"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/call_list_view_img"
+        style="@style/list_view_item_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:src="@drawable/missed_call"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="editText_Style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/roundrectangle</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="contact_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_weight">0.30</item>
+    </style>
+
+    <style name="contact_val_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_weight">0.70</item>
+    </style>
+
+    <style name="list_view_item_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dial_pad_btn_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:height">30dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:width">70dp</item>
+    </style>
+
+    <style name="dial_pad_call_btn_style">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:textSize">16sp</item>
+          <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="dial_pad_backspace_btn_style">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+          <item name="android:gravity">center</item>
+         <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+</resources>

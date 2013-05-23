@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none" >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/Number"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#AAccaa"
+            android:gravity="center"
+            android:hint="Dial:"
+            android:inputType="phone"
+            android:textColor="#000000"
+            android:textSize="25dp" >
+        </TextView>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/Button01"
+                style="@style/dial_pad_btn_style"
+                android:text="1" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button02"
+                style="@style/dial_pad_btn_style"
+                android:text="2" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button03"
+                style="@style/dial_pad_btn_style"
+                android:text="3" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/Button04"
+                style="@style/dial_pad_btn_style"
+                android:text="4" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button05"
+                style="@style/dial_pad_btn_style"
+                android:text="5" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button06"
+                style="@style/dial_pad_btn_style"
+                android:text="6" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/Button07"
+                style="@style/dial_pad_btn_style"
+                android:text="7" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button08"
+                style="@style/dial_pad_btn_style"
+                android:text="8" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button09"
+                style="@style/dial_pad_btn_style"
+                android:text="9" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/ButtonStar"
+                style="@style/dial_pad_btn_style"
+                android:text="*" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button00"
+                style="@style/dial_pad_btn_style"
+                android:text="+0" >
+            </Button>
+
+            <Button
+                android:id="@+id/ButtonPound"
+                style="@style/dial_pad_btn_style"
+                android:text="#" >
+            </Button>
+        </TableRow>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/CALLButton"
+        style="@style/dial_pad_call_btn_style"
+        android:layout_alignBottom="@+id/ButtonDel"
+        android:layout_alignParentLeft="true"
+        android:text="CALL" >
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonDel"
+        style="@style/dial_pad_backspace_btn_style"
+        android:layout_alignParentRight="true"
+        android:text="  &lt;  " >
+    </Button>
+
+    <!-- <com.admob.android.ads.AdView -->
+    <!-- xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" -->
+    <!-- android:id="@+id/ad" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- admobsdk:backgroundColor="#000000" -->
+    <!-- admobsdk:keywords="Android application" -->
+    <!-- admobsdk:testing="false" -->
+    <!-- admobsdk:textColor="#FFFFFF" /> -->
+
+    <ImageButton
+        android:id="@+id/Contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_action_search"
+        android:visibility="gone" >
+    </ImageButton>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">RedRockDialer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">RedRockDialer</string>
+    <string name="button_power_calculator">Power</string>
+    <string name="title_activity_power_calculator">PowerCalculator</string>
+    <string name="power_calculator_text_prc">Power Requirement Calculator</string>
+    <string name="power_calculator_text_phase">Phase</string>
+    <string name="power_calculator_radio_phase1">1</string>
+    <string name="power_calculator_radio_phase3">3</string>
+    <string name="power_calculator_text_volts">Volts</string>
+    <string name="power_calculator_text_amps">Amps</string>
+    <string name="power_calculator_button_req_calc">Calculate KW</string>
+    <string name="title_activity_power_calculator2">PowerCalculator2</string>
+    <string name="power_calculator">Power Calculator</string>
+    <string name="pf">PF</string>
+    <string name="three_phase">3 Phase</string>
+    <string name="volts">Volts</string>
+    <string name="amps">Amps</string>
+    <string name="calculate">Calculate</string>
+    <string name="kw_to_kva">KW to KVA</string>
+    <string name="kw">KW\u00A0</string>
+    <string name="kva_to_kw">KVA to KW</string>
+    <string name="kva">KVA</string>
+    <string name="kw_to_hp">"KW to HP</string>
+
+     <string name="phase_text">Phase(1,2,3)</string>
+    <string name="calculating_amperes">Calculating Amperes (when you know kVA)</string>
+<!--     <string name="kw_to_kva">KW to KVA</string> -->
+<!--     <string name="kw">KW</string> -->
+<!--     <string name="kva_to_kw">KVA to KW</string> -->
+<!--     <string name="kva">KVA</string> -->
+<!--     <string name="kw_to_hp">"KW to HP</string> -->
+</resources>
