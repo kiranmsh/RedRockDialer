@@ -1,5 +1,5 @@
 package com.redrockdialer;
-
+//windows sync by km
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
