@@ -34,10 +34,11 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.TextView.BufferType;
 import android.widget.Toast;
+//123 mic testing
 
 @SuppressWarnings("deprecation")
 public class DialPad extends Activity {
-//test by srikanth 6:29
+//test by srikanth 6:31
   Button button00, button01, button02, button03, button04, button05, button06, button07, button08, button09, buttonDel, buttonPound, buttonStar;
   TextView dialNumber;
   // Spinner phoneSelect;
