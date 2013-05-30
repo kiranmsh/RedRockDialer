@@ -37,7 +37,7 @@ import android.widget.Toast;
 
 @SuppressWarnings("deprecation")
 public class DialPad extends Activity {
-//test by srikanth 6:22
+//test by srikanth 6:27
   Button button00, button01, button02, button03, button04, button05, button06, button07, button08, button09, buttonDel, buttonPound, buttonStar;
   TextView dialNumber;
   // Spinner phoneSelect;
