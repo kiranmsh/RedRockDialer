@@ -36,6 +36,7 @@ import android.widget.TextView.BufferType;
 import android.widget.Toast;
 //123 mic testing
 
+
 @SuppressWarnings("deprecation")
 public class DialPad extends Activity {
 //test by srikanth 6:31
@@ -55,6 +56,7 @@ public class DialPad extends Activity {
     this.setContentView(R.layout.dial_pad);
 
     // selectedPhone = "";
+    //test commit by myhunna
 
     ContactLookup = (ImageButton) this.findViewById(R.id.Contacts);
 
